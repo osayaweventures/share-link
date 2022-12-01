@@ -9,6 +9,13 @@
             "homepage": "https://github.com/osayaweventures"
         }
     ],
+    "require": {
+        "statamic/cms": "~3.2.15 || ~3.3.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
     "autoload": {
         "psr-4": {
             "Osayaweventures\\ShareLinks\\": "src"
@@ -24,5 +31,7 @@
                 "Osayaweventures\\ShareLinks\\ServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
