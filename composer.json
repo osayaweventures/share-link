@@ -1,0 +1,27 @@
+{
+    "name": "osayaweventures/share-links",
+    "description": "Social sharing links for your Statamic site",
+    "type": "statamic-addon",
+    "authors": [
+        {
+            "name": "Osayawe Ventures",
+            "homepage": "https://github.com/osayaweventures"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Osayaweventures\\ShareLinks\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Share Links",
+            "description": "Share Links addon"
+        },
+        "laravel": {
+            "providers": [
+                "Osayaweventures\\ShareLinks\\ServiceProvider"
+            ]
+        }
+    }
+}
