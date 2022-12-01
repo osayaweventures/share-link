@@ -2,6 +2,7 @@
     "name": "osayaweventures/share-links",
     "description": "Social sharing links for your Statamic site",
     "type": "statamic-addon",
+    "license": "MIT",
     "authors": [
         {
             "name": "Osayawe Ventures",
